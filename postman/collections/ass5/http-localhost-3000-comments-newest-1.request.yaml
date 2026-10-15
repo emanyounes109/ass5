@@ -1,0 +1,6 @@
+$kind: http-request
+name: http://localhost:3000/comments/newest/1
+description: ""
+url: http://localhost:3000/comments/newest/1
+method: GET
+order: 13000

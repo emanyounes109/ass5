@@ -1,0 +1,11 @@
+$kind: http-request
+name: http://localhost:3000/users/by-email
+description: ""
+url: http://localhost:3000/users/by-email?email=sara@gmail.com
+method: GET
+queryParams:
+  - key: email
+    value: sara@gmail.com
+    disabled: false
+    description: ""
+order: 3000

@@ -1,0 +1,9 @@
+$kind: http-request
+name: http://localhost:3000/comments/3
+description: ""
+url: http://localhost:3000/comments/3
+method: PATCH
+body:
+  type: json
+  content: '{ "userId": 3, "content": "updated" }'
+order: 10000

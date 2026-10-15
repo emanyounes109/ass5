@@ -1,0 +1,17 @@
+$kind: http-request
+name: http://localhost:3000/comments/find-or-create
+description: ""
+url: http://localhost:3000/comments/find-or-create
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \  \"postId\": 1,\r
+
+    \  \"userId\": 2,\r
+
+    \  \"content\": \"This is a sample comment\"\r
+
+    }"
+order: 11000

@@ -1,0 +1,25 @@
+$kind: http-request
+name: http://localhost:3000/comments
+description: ""
+url: http://localhost:3000/comments
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \  \"comments\": [\r
+
+    \    { \"content\": \"This is the first comment.\",           \"postId\": 1, \"userId\": 1 },\r
+
+    \    { \"content\": \"Amazing post!\",                        \"postId\": 2, \"userId\": 2 },\r
+
+    \    { \"content\": \"I totally agree with this post.\",      \"postId\": 1, \"userId\": 3 },\r
+
+    \    { \"content\": \"Thanks for sharing your thoughts.\",    \"postId\": 3, \"userId\": 1 },\r
+
+    \    { \"content\": \"Looking forward to more posts like this!\", \"postId\": 1, \"userId\": 4 }\r
+
+    \  ]\r
+
+    }"
+order: 9000

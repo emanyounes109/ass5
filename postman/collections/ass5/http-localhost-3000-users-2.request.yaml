@@ -1,0 +1,21 @@
+$kind: http-request
+name: http://localhost:3000/users/2
+description: ""
+url: http://localhost:3000/users/2
+method: PUT
+body:
+  type: json
+  content: "{\r
+
+    \  \"name\": \"Eman\",\r
+
+    \  \"email\": \"eman22\",\r
+
+    \  \"password\": \"1234567\",\r
+
+    \  \"age\": 30,\r
+
+    \  \"role\": \"user\"\r
+
+    }"
+order: 2000

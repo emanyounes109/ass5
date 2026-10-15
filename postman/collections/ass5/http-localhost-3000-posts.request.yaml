@@ -1,0 +1,17 @@
+$kind: http-request
+name: http://localhost:3000/posts
+description: ""
+url: http://localhost:3000/posts
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \  \"title\": \"2nd Post\",\r
+
+    \  \"content\": \"This is the 2nd post\",\r
+
+    \  \"userId\": 3\r
+
+    }"
+order: 5000

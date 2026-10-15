@@ -1,0 +1,8 @@
+$kind: http-request
+name: http://localhost:3000/comments/search
+description: ""
+url: http://localhost:3000/comments/search?word=the
+method: GET
+queryParams:
+  word: the
+order: 12000
